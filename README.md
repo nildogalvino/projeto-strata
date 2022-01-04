@@ -1,0 +1,2 @@
+# projeto-strata
+ Projeto - Strata
