@@ -1,0 +1,162 @@
+body{
+    font-family: 'open-sans', arial, helvetica, sans-serif;
+    color: #666;
+    line-height: 1.7;
+    
+}
+
+a{
+    transition: color .2s linear, border .2s linear;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: #49bf9d;
+}
+
+p{
+    margin: 0 0 2em;
+}
+
+a:hover{
+    border-bottom-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #78787878;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+sub, sup{
+    font-size: 12px;
+}
+
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: .5em 0 .5em 1.5em;
+}
+
+code{
+    color: #3f3e3e;
+    border-radius: .35em;
+    border: 2px solid color #efefef;
+    font-size: .9em;
+    padding: 0.25em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #929292;
+}
+
+pre code{
+    display: block;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    padding-left: 1.1em;
+}
+
+li{
+    padding-left: .5em;
+}
+
+.ol-alternate{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.ol-alternate li{
+    border-bottom: 2px solid rgb(209, 207, 207);
+    padding-left: 0;
+}
+
+.ol-alternate li:last-child{
+    border: 0;
+}
+
+.ul-incos li{
+    display: inline-block;
+
+}
+
+.ul-incos{
+    border-bottom: 2px solid rgb(209, 207, 207);
+    padding-left: 0;
+}
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px 74px;
+    box-sizing: border-box;
+    background-image: url(images/overlay.png), url(images/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+
+.main-header-title strong{
+    color: white;
+    font-weight: normal;
+}
+
+.main-header-link{
+    color: inherit;
+}
+
+.main-header-link:hover{
+    color: #49bf9d;
+}
+
+.main-header-title{
+    font-size: 22px;
+    line-height: 1.5;
+    color: white;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .5);
+    
+}
+
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 74px;
+    box-sizing: border-box;
+}
+
+.row{
+     overflow: auto;
+}
+
+.col2{
+    width: 50%;
+    float: left;
+}

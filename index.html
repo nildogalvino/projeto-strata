@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Strata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 </head>
@@ -13,11 +17,11 @@
      <a href="index.html" class="main-header-link">
          <img src="images/avatar.jpg" alt="texto qualquer">
      </a>
-     <h1>
+     <h1 class="main-header-title">
         Trabalhos e Projetos de <br>
         <strong>Nildo Galvino dos Santos</strong>,<br>
                <br>
-                Retirado de <a href="http://html5up.net">html5up.net.</a>
+                Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net.</a>
      </h1>
      </header>
     <main class="main-content">
@@ -107,10 +111,18 @@
     <section class="main-content-section">
         <h3>Elements</h3>
         <h4>Text</h4>
-        <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is <code>code: for (;;) { ... }</code>. Finally, this is <a href="#">a link</a>.
+        <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is <code>code: for (;;) { ... }</code>. Finally, <a href="#">this is   link</a>
         </p>
+
+        <h1>titulo h1</h1>
+        <h2>titulo h2</h2>
+        <h3>titulo h3</h3>
+        <h4>titulo h4</h4>
+        <h5>titulo h5</h5>
+        <h6>titulo h6</h6>
+
         <blockquote cite="http://developer.mozilla.org">
-            <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+            Esta é uma citação tirada da Mozilla Developer Center.
         </blockquote>
         <p>According to Mozilla's website, Firefox 1.0 was released in 2004 and became a big success</p>
 
@@ -125,7 +137,10 @@ alert('oi');
         </pre>
 
         <h4>Listas</h4>
-        <h5>Não ordenada</h5>
+        <div class="row">
+            <div class="col2">
+                <h5>Não ordenada</h5>
+
         <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -137,14 +152,19 @@ alert('oi');
             <li>Item 2</li>
             <li>Item 3</li>
         </ol>
+            </div>
+        </div>
+       <div class="col2">
         <h5>Alternate</h5>
         <ol class="ol-alternate">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
         </ol>
+       </div>
+       
         <h5>Incos</h5>
-        <ul>
+        <ul class="ul-icons">
            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
            <li><i class="fab fa-facebook-square"></i>
            </li>
