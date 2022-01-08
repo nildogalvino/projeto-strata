@@ -101,12 +101,77 @@ li{
 
 .ul-incos li{
     display: inline-block;
+    font-size: 2em;
+    color: #49bf9d;
 
 }
 
 .ul-incos{
     border-bottom: 2px solid rgb(209, 207, 207);
     padding-left: 0;
+}
+
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+
+}
+
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+
+.button-default-small{
+    font-size: .65em;
+}
+
+.button-default-full{
+    display: block;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table td{
+    padding: .75em;
+}
+.table th{
+    background-color: #ccc;
+    padding: .75em;
+}
+
+.table tbody tr:first-child td{
+    border-top: 2px solid #666;
+
+}
+
+.table tbody tr td{
+    border-bottom: 1px solid #ccc;
+}
+
+.table tbody tr:nth-child(even) td{
+    background-color: #eee;
+}
+
+.table-alternate tbody td, .table-alternate tr:first-child td, .table-alternate tr:last-child td{
+    border: 1px solid #ddd;
+
+}
+
+.table tbody tr:last-child td{
+    border-bottom: 2px solid #666;
+
 }
 
 .main-header{
