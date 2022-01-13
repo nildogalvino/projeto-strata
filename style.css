@@ -16,6 +16,11 @@ p{
     margin: 0 0 2em;
 }
 
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
 a:hover{
     border-bottom-color: transparent;
 }
@@ -252,6 +257,16 @@ textarea{
     margin-left: 35%;
     padding: 124px 54px 74px;
     box-sizing: border-box;
+}
+
+.main-header-link img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.recent-works-card img{
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 /* Grid */
