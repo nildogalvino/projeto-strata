@@ -269,6 +269,18 @@ textarea{
     overflow: hidden;
 }
 
+.gallery-img{
+    
+}
+
+.gallery-img img{
+    width: 100%;
+}
+
+.gallery-thumb{
+    
+}
+
 /* Grid */
 
 .row{
@@ -276,16 +288,16 @@ textarea{
 }
 
 .col2{
-    width: 49%;
+    width: 48.2%;
     float: left;
 }
 
 .col2:first-child{
-    margin-right: 1%;
+    margin-right: 1.5%;
 }
 
 .col2:last-child{
-    margin-left: 1%;
+    margin-left: 1.5%;
 }
 
 .col-2-3{
@@ -297,7 +309,10 @@ textarea{
 
 .col-1-3{
     width: 32%;
-    margin-left: 3%;
     float: left;
    
+}
+
+.col-1-3:nth-child(2){
+    margin: 0 2%;
 }
